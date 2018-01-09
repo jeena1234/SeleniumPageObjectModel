@@ -7,7 +7,7 @@
 <parameter name="Message" value="Hi can you help"/>
 <parameter name="Email" value="abc23d@gmail.com"/>
 <parameter name="Subject" value="Help on something"/>
-<parameter name="AboutUsactual" value="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."/>
+<parameter name="AboutUsactual" value="iam Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."/>
    <classes>
       <class name="testCases.TopnavigationTestCases">
       <methods>
