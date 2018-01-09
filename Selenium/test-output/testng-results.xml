@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite Test" duration-ms="6473" started-at="2018-01-09T00:25:31Z" finished-at="2018-01-09T00:25:38Z">
+    <groups>
+    </groups>
+    <test name="Register on the page" duration-ms="6473" started-at="2018-01-09T00:25:31Z" finished-at="2018-01-09T00:25:38Z">
+      <class name="testCases.TopnavigationTestCases">
+        <test-method status="PASS" signature="setUp(org.testng.ITestContext)[pri:0, instance:testCases.TopnavigationTestCases@1e397ed7]" name="setUp" is-config="true" duration-ms="7425" started-at="2018-01-08T19:25:24Z" finished-at="2018-01-08T19:25:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@551aa95a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="contactInfo(java.lang.String, java.lang.String, java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:testCases.TopnavigationTestCases@1e397ed7]" name="contactInfo" duration-ms="5578" started-at="2018-01-08T19:25:31Z" finished-at="2018-01-08T19:25:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jyoti]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc23d@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Help on something]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Hi can you help]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[org.testng.TestRunner@551aa95a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactInfo -->
+        <test-method status="FAIL" signature="getinfo(java.lang.String, org.testng.ITestContext)[pri:0, instance:testCases.TopnavigationTestCases@1e397ed7]" name="getinfo" duration-ms="879" started-at="2018-01-08T19:25:37Z" finished-at="2018-01-08T19:25:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hello thereLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@551aa95a]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Incorrect Abuot us  expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Incorrect Abuot us  expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at testCases.TopnavigationTestCases.getinfo(TopnavigationTestCases.java:25)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getinfo -->
+      </class> <!-- testCases.TopnavigationTestCases -->
+    </test> <!-- Register on the page -->
+  </suite> <!-- Suite Test -->
+</testng-results>
